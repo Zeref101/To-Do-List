@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    
+    height: 100vh;
+    width: 100%;
+    background: #000;
+}
+.container-2{
+    
+    background: #fff;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.to-do{
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.to-do img{
+    width: 40px;
+    margin-left: 10px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+#input-text{
+    flex: 1;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background: rgba(77, 76, 76, 0.2);;
+    padding: 0.9rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.add-btn{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: #E90064;
+    padding: 16px 50px;
+    color: white;
+    height: 47px;
+    position: relative;
+    left: -8%;
+}
+ul li{
+    list-style: none;
+    font-size: 17px ;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+}
