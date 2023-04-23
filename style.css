@@ -8,7 +8,7 @@ body{
     
     height: 100vh;
     width: 100%;
-    background: #000;
+    background: radial-gradient(circle, #24246e, #06051f);
 }
 .container-2{
     
@@ -56,7 +56,7 @@ body{
     border-radius: 30px;
     outline: none;
     border: none;
-    background: #E90064;
+    background: #ff5945;
     padding: 16px 50px;
     color: white;
     height: 47px;
@@ -82,6 +82,7 @@ ul li::before{
     background-position: center;
     left: 725px;
 }
+
 ul li.checked{
     color: #555;
     text-decoration: line-through;
